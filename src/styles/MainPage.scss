@@ -1,0 +1,14 @@
+@import "./Variables.scss";
+
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $mainFont;
+
+    h1 {
+        color: $red;
+    }
+
+    button {@include buttonStyle($red, 35px)}
+}
